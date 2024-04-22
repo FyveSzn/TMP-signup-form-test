@@ -1,5 +1,14 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .Signup-text {
 	font-family: arial;
+
 }
 
 .Email-text,
@@ -32,10 +41,7 @@
 .checkbox {
 	font-family: arial;
 	font-size: small;
-}
-
-.checkbox-button {
-	background-color: rgb(245, 242, 242);
+	margin-right: 95px;
 }
 
 .Signup-button {
